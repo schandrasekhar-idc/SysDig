@@ -171,21 +171,22 @@ public class SysDig_TC_Assessment
 				System.out.println("On Assessment Page-4, Next button is clicked");
 
 			// ****************************************Registration Page***************************************************//
-				//Find and enter a value in First Name				
+				//Find and enter a value in First name				
 				SysDig.findElement(By.xpath("//*[@id='Q6-QI16-AC293']")).sendKeys("Test First name");
 				
-				//Find and enter a value in Last Name
+				//Find and enter a value in Last name
 				SysDig.findElement(By.xpath("//*[@id='Q7-QI17-AC294']")).sendKeys("Test Last name");
 				
-				
+				//Find and enter a value in Organization name
 				SysDig.findElement(By.xpath("//*[@id='Q8-QI18-AC295']")).sendKeys("IDC Test Assessment");
 				
-				
+				//Find and enter a value in Email
 				SysDig.findElement(By.xpath("//*[@id='Q9-QI19-AC296']")).sendKeys("idc.test.adm@webappuat.com");
 				
-				
+				//Find and enter a value in Job
 				SysDig.findElement(By.xpath("//*[@id='Q10-QI20-AC297']")).sendKeys("Test Job title");
 				
+				//Find and click on SEND MY REPORT
 				SysDig.findElement(By.xpath("//*[@id='callThankyou']")).click();
 
 				}
