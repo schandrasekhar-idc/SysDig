@@ -171,10 +171,10 @@ public class SysDig_TC_Assessment
 				System.out.println("On Assessment Page-4, Next button is clicked");
 
 			// ****************************************Registration Page***************************************************//
-				//Find and Enter a value in First Name web element
-				
+				//Find and enter a value in First Name				
 				SysDig.findElement(By.xpath("//*[@id='Q6-QI16-AC293']")).sendKeys("Test First name");
 				
+				//Find and enter a value in Last Name
 				SysDig.findElement(By.xpath("//*[@id='Q7-QI17-AC294']")).sendKeys("Test Last name");
 				
 				
